@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap: https://port-0-my-repository-3prof2lll4hty1e.sel3.cloudtype.app/sitemap.xml
