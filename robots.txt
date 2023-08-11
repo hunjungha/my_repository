@@ -1,3 +1,4 @@
 User-agent: *
-Allow:/
+Disallow: /평단가 및 수익률 확인
+Disallow: /main
 Sitemap: https://port-0-my-repository-3prof2lll4hty1e.sel3.cloudtype.app/sitemap.xml
