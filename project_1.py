@@ -1,7 +1,14 @@
-from flask import Flask, render_template, request, make_response, jsonify
+from flask import Flask, render_template, request, make_response, jsonify, send_from_directory
 
 app = Flask(__name__, static_url_path='/static')
 
+@app.route('/robots.txt')
+def robot_to_root():
+    return send_from_directory(app.static_folder, request.path[1:])
+
+@app.route('/sitemap.xml')
+def site_to_root():
+    return send_from_directory(app.static_folder, request.path[1:])
 
 @app.route("/", methods=['GET','POST'])
 def main_window_main () :
