@@ -81,6 +81,7 @@ PyScreeze==0.1.29
 PySide6==6.5.1.1
 PySide6-Addons==6.5.1.1
 PySide6-Essentials==6.5.1.1
+Python ==3.11
 PySocks==1.7.1
 pytesseract==0.3.10
 python-dotenv==1.0.0
