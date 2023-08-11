@@ -85,7 +85,6 @@ PySocks==1.7.1
 pytesseract==0.3.10
 python-dotenv==1.0.0
 pytweening==1.0.7
-pywin32==306
 pywin32-ctypes==0.2.2
 pyzbar==0.1.9
 qrcode==7.4.2
