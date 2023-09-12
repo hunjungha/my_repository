@@ -18,6 +18,9 @@ def site_to_root():
 def calculation () :
     return render_template("calculation.html")
 
+@app.route("/main", methods=['GET','POST'])
+def main_window () :
+    return render_template("main.html")
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port="8080")
+    app.run(host="0.0.0.0", port="8000", debug=True)
